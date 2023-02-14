@@ -20,13 +20,14 @@ html {
   background: #fff;
   border-bottom: #f3f3f3;
   align-items: center;
-  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
+  border-bottom: 2px solid #F6F6F6;
 }
 
 .articleContainer .wrapperNavbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 0;
 }
 .articleContainer .wrapperNavbar li {
   list-style: none;
@@ -42,7 +43,6 @@ html {
   font-family: Exdoxus Sans;
   font-weight: 500;
   font-size: 18px;
-  line-height: 32.4px;
 }
 .wrapperNavbar li a:hover {
   color: #0d99ff;
@@ -72,9 +72,7 @@ html {
   display: flex;
   font-size: 20px;
 }
-.textnavbar {
-  /* margin-top: 6px; */
-}
+
 .navbar3-icon {
   padding-right: 15px;
 }

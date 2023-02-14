@@ -1,144 +1,178 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-.ContentContainer{
-    width: 100%;
-    height: 100%;
+
+.ContentContainer {
+  width: 100%;
+  height: 100%;
 }
 
-.ContentArticle{
-    width: 80%;
+.ContentArticle {
+  width: 80%;
+  margin: auto;
+}
+.CarouselContainer {
+  height: 900px;
+}
+.textContent {
+  .TitleContent {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Exdoxus Sans;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 700;
+  }
+  .Content {
+    text-align: center;
     margin: auto;
-}
-.CarouselContainer{
-    height: 900px;
-}
-.textContent{
-    .TitleContent{
-        text-align: center;
-        margin-top: 50px;
-        font-family: Exdoxus Sans;
-        font-size: 64px;
-        line-height: 84px;
-        font-weight: 700;
-    }
-    .Content{
-        text-align: center;
-        margin: auto;
-        width: 62%;
-        height: 64px;
-        color: #CDCCD0;
-        font-family: Exdoxus Sans;
-        font-size: 18px;
-        line-height: 33px;
-        font-weight: 500;
-    }
+    width: 62%;
+    height: 64px;
+    color: #cdccd0;
+    font-family: Exdoxus Sans;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 500;
+  }
 }
 
-.ContentArticle{
-    .BoxTip{
-        padding-left: 5%;
-        width: 90%;
-        height: 248px;
-        background: #FFFFFF;
-box-shadow: 0px 4px 140px rgba(175, 173, 181, 0.2);
-transform: translate(4%, 25%);
-padding-top: 25px;
+.ContentArticle {
+  .BoxTip {
+    padding-left: 5%;
+    width: 90%;
+    height: 248px;
+    background: #ffffff;
+    box-shadow: 0px 4px 140px rgba(175, 173, 181, 0.2);
+    transform: translate(4%, 25%);
+    padding-top: 25px;
+  }
+  .textTip {
+    height: 32px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .textTitle {
+    height: 68px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #151411;
+  }
+  .textMorgan {
+    width: 141px;
+    height: 18px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #151411;
+  }
+  .ContentText {
+    height: 25px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #afadb5;
+  }
+  .boxAvatar {
+    display: flex;
+    align-items: center;
+    .avatarimg {
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      img {
+        width: 100%;
+      }
     }
-    .textTip{
-        width: 114px;
-height: 32px;
-        font-family: 'Eudoxus Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 180%;
+  }
+}
+
+.CardContainer {
+  .textNew {
+    width: 97px;
+    height: 23px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffb23f;
+  }
+  .textTodaytop {
+    width: 428px;
+    height: 57px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #151411;
+  }
+}
+
+.TrendingTop {
+  margin-top: 30px;
+  .textTrendingTop {
+    width: 137px;
+    height: 23px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffb23f;
+  }
+  .textPopular {
+    width: 376px;
+    height: 57px;
+    font-family: "Eudoxus Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #151411;
+  }
+}
+.TextLoad {
+    margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Eudoxus Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #151411;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #F5F5F5;
+  .ptextLoad{
+    text-align: center;
+    line-height: 50px;
+  }
+}
+
+.TextSubscribe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  .textTalk {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #518581;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .ptextTalk {
+      margin-bottom: 0;
     }
-    .textTitle{
-        width: 803px;
-height: 68px;
+  }
+}
 
 
-font-family: 'Eudoxus Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 130%;
-
-letter-spacing: 0.01em;
-
-
-color: #151411;
-    }
-    .textMorgan{
-        width: 141px;
-height: 18px;
-
-
-font-family: 'Eudoxus Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 130%;
-color: #151411;
-    }
-    span{
-        width: 143px;
-height: 25px;
-
-font-family: 'Eudoxus Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 180%;
-color: #AFADB5;
-
-flex: none;
-order: 2;
-flex-grow: 0;
-    }
-    .boxAvatar{
+@media screen and (max-width:625px) {
+    .CardContainer{
         display: flex;
-        align-items: center;
-        
-        .avatarimg{
-            margin-right: 10px;
-            width: 50px;
-            height: 50px;
-            img{
-                width: 100%;
-                
-            }
-        }
+        flex-direction: column;
     }
     
-}
-
-.CardContainer{
-    .textNew{
-        width: 97px;
-height: 23px;
-font-family: 'Eudoxus Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 130%;
-color: #FFB23F;
-
-    }
-    .textTodaytop{
-        width: 428px;
-height: 57px;
-font-family: 'Eudoxus Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 44px;
-line-height: 130%;
-color: #151411;
-flex: none;
-order: 1;
-flex-grow: 0;
-    }
 }
