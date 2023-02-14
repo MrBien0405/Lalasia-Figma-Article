@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.ContentContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.ContentArticle{
+    width: 80%;
+    margin: auto;
+}
+.CarouselContainer{
+    height: 900px;
+}
+.textContent{
+    .TitleContent{
+        text-align: center;
+        margin-top: 50px;
+        font-family: Exdoxus Sans;
+        font-size: 64px;
+        line-height: 84px;
+        font-weight: 700;
+    }
+    .Content{
+        text-align: center;
+        margin: auto;
+        width: 62%;
+        height: 64px;
+        color: #CDCCD0;
+        font-family: Exdoxus Sans;
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 500;
+    }
+}
+
+.ContentArticle{
+    .BoxTip{
+        padding-left: 5%;
+        width: 90%;
+        height: 248px;
+        background: #FFFFFF;
+box-shadow: 0px 4px 140px rgba(175, 173, 181, 0.2);
+transform: translate(4%, 25%);
+padding-top: 25px;
+    }
+    .textTip{
+        width: 114px;
+height: 32px;
+        font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;
+    }
+    .textTitle{
+        width: 803px;
+height: 68px;
+
+
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 130%;
+
+letter-spacing: 0.01em;
+
+
+color: #151411;
+    }
+    .textMorgan{
+        width: 141px;
+height: 18px;
+
+
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 130%;
+color: #151411;
+    }
+    span{
+        width: 143px;
+height: 25px;
+
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 180%;
+color: #AFADB5;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+    }
+    .boxAvatar{
+        display: flex;
+        align-items: center;
+        
+        .avatarimg{
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+            img{
+                width: 100%;
+                
+            }
+        }
+    }
+    
+}
+
+.CardContainer{
+    .textNew{
+        width: 97px;
+height: 23px;
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 130%;
+color: #FFB23F;
+
+    }
+    .textTodaytop{
+        width: 428px;
+height: 57px;
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+color: #151411;
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+}

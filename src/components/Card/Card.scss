@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    // display: flex;
+    // justify-content: space-between;
+}
+.CardContainer{
+    .boxImg{
+        width: 90%;
+        height: 340px;
+    }
+    img{
+        width: 100%;
+    }
+    .textDesign{
+     
+width: 155px;
+height: 32px;
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;
+color: #AFADB5;
+    }
+    .textBedroom{
+        width: 550px;
+height: 34px;
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 130%;
+letter-spacing: 0.01em;
+color: #151411;
+
+    }
+    .textnd{
+        width: 550px;
+height: 65px;
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 180%;
+color: #AFADB5;
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+}
+.boxAvatar{
+    display: flex;
+    align-items: center;
+    
+    .avatarimg{
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        img{
+            width: 100%;
+            
+        }
+    }
+}
