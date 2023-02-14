@@ -25,7 +25,7 @@ function BasicExample() {
               <img src={avatar} alt='logo' />
             </div>
             <span className='textMorgan'>By Morgan Goldberg </span>
-            <span>Tuesday,13 May 2023</span>
+            <span className="acv">Tuesday,13 May 2023</span>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ function BasicExample() {
               <img src={avatar} alt='logo' />
             </div>
             <span className='textMorgan'>By Morgan Goldberg </span>
-            <span>Tuesday,13 May 2023</span>
+            <span className="acv">Tuesday,13 May 2023</span>
           </div>
         </div>
       </div>

@@ -45,21 +45,21 @@ function TrendingTop() {
           <div className='boxTrendingTop1'>
             <ul className='boxNavbarTrendingTop'>
               <li>
-                <a className='All' href=''>
+                <a className='All' href='/'>
                   All
                 </a>
               </li>
               <li>
-                <a href=''>Tips and Trick</a>
+                <a href='/'>Tips and Trick</a>
               </li>
               <li>
-                <a href=''>Interior Design</a>
+                <a href='/'>Interior Design</a>
               </li>
-              <li>
-                <a href=''>Design Inspiration</a>
+              <li className="a">
+                <a href='/'>Design Inspiration</a>
               </li>
-              <li>
-                <a href=''>Color Guide</a>
+              <li className="b">
+                <a href='/'>Color Guide</a>
               </li>
             </ul>
           </div>
@@ -87,7 +87,7 @@ function TrendingTop() {
                   <img src={e.avatar} alt='logo' />
                 </div>
                 <span className='textMorgan'>{e.username}</span>
-                <span>{e.date}</span>
+                <span className="abc">{e.date}</span>
               </div>
             </div>
           </div>

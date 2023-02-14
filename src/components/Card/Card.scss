@@ -46,7 +46,14 @@
     }
   }
 }
-
+.acv{
+  margin-left: 20px;
+  font-family: "Eudoxus Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #afadb5;
+}
 @media screen and (max-width: 625px) {
   .col {
     display: flex;
